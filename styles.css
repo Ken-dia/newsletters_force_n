@@ -226,11 +226,15 @@ body {
     justify-content: center;
 }
 .btn-candidature {
+    width: 200px;
     font-size: 20px;
     padding: 25px;
     background-color: #ca6e39;
     color: white;
+    text-decoration: none;
+    border: none;
 }
+
 .dictionnaire {
     background-color: #bbd4ea;
     padding: 50px;
@@ -367,6 +371,7 @@ p {
     }
     .essentiel .btn .btn-candidature {
         font-size: 15px;
+        width: 150px;
     }
     .actualite .item h3 {
         font-size: 20px;
