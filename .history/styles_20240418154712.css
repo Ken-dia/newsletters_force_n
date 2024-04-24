@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 229, 229);
+   margin: 0px;
+}
+.entete {
+    background-color: white;
+    padding: 20px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+.title-newsletters {
+    color: rgb(214, 76, 26);
+    font-size: 5rem;
+    font-weight: 950;
+}
+.subtitle-newsletters {
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 950;
+}
+.day {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    font-weight: 950;
+}
+.container {
+    margin: 5%;
+}
+.title-emploie {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 950;
+}
+.emploie {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 224);
+}

@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 229, 229);
+   margin: 0px;
+}
+.entete {
+    background-color: white;
+    padding: 20px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+.title-newsletters {
+    color: rgb(214, 76, 26);
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}

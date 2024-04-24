@@ -1,0 +1,236 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 229, 229);
+   margin: 0px;
+}
+.entete {
+    background-color: white;
+    padding: 20px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+.title-newsletters {
+    color: #ca6e39;
+    font-size: 5rem;
+    font-weight: 950;
+}
+.subtitle-newsletters {
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 950;
+}
+/* .logo_force_n {
+    margin-left: 8%;
+} */
+.day {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    font-weight: 950;
+}
+.container {
+    margin: 5%;
+}
+.title-emploie {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 950;
+    margin: 50px;
+}
+.emploie {
+    display: flex;
+    gap: 100px;
+}
+.emploie .item {
+    background-color: white;
+    border: 1px solid rgb(168, 168, 224);
+    font-size: 20px;
+    line-height: 32px;
+    padding: 20px 50px;
+    box-shadow: inset 0 0 0 1px rgb(235, 229, 229);
+}
+.emploie .item .title {
+    color: #ca6e39;
+    font-weight: 950;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% 10%;
+    border-bottom: 1px solid rgb(135, 135, 252);
+    /* padding: 20px;
+    */
+}
+
+.emploie .item .text {
+    margin: 50px 0px;
+    text-align: justify;
+}
+
+.emploie .item .actions {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.job-board {
+    display: flex;
+   
+}
+.board-image {
+    background-color: #ca6e39;
+    padding: 50px 0px 100px 0px;
+}
+.title-job-board {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.board-text {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.soft-kill-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 950;
+    margin: 100px;
+    color: #ca6e39;
+}
+
+.text-solf-skill {
+    margin: 50px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.text-solf-skill h4 {
+    color: rgb(17, 17, 179);
+    font-weight: 950;
+    
+}
+.text-solf-skill h3 {
+    color: #ca6e39;
+    font-weight: 950;
+}
+/* .text-solf-skill p {
+    text-align: justify;
+    line-height: 1.5rem;
+} */
+.entretiens {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.entretiens .text {
+    background-color: white;
+    /* width: 100%; */
+    padding: 30px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.embauche {
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.embauche h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+.embauche .items {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 50px;
+}
+.embauche .item {
+    background-color: white;
+    padding: 50px;
+    border: 1px solid rgb(170, 170, 180);
+    box-shadow:inset 0 0 0 1px rgb(235, 229, 229);
+}
+.essentiel {
+    background-color: #175a93;
+    color: white;
+    padding: 50px;
+}
+.essentiel .contenu {
+    font-size: 20px;
+    line-height: 32px;
+}
+.essentiel h2 {
+    text-align: center;
+    font-weight: bolder;
+
+}
+.essentiel .slogan {
+    margin: 50px 0px;
+    font-weight: 950;
+}
+.essentiel .btn {
+    display: flex;
+    justify-content: center;
+}
+.btn-candidature {
+    font-size: 20px;
+    padding: 25px;
+    background-color: #ca6e39;
+    color: white;
+}
+.dictionnaire {
+    background-color: #bbd4ea;
+    padding: 50px;
+}
+.actualite {
+    padding: 50px;
+}
+.actualite .items {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 100px;
+}
+.actualite .item h3 {
+    font-size: 30px;
+    color: #ca6e39;
+    line-height: 40px;
+}
+.footer {
+    padding: 50px;
+    background-color: white;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.adresse {
+   
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.adresse .contenu {
+    text-align: center;
+    line-height: 32px;
+}
+.contenu span {
+    color: #ca6e39;
+    font-weight: 950;
+}
+p {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(49, 48, 48);
+}
