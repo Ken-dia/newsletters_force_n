@@ -1,7 +1,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(235, 229, 229);
+    background-color: rgb(92, 91, 91);
    margin: 0px;
+   font-size: 20px;
 }
 .entete {
     background-color: white;
@@ -277,6 +278,91 @@ body {
     color: #ca6e39;
     font-weight: 950;
 }
+.main {
+    background-color: white;
+    padding: 50px;
+}
+.main h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 950;
+    color: #175a93;
+}
+.theme {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.theme span {
+    color: #d86928;
+    font-weight: 950;
+}
+.rendez-vous {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.date {
+    padding: 50px;
+    border-right: 3px solid #d86928;
+}
+.lieu {
+     padding: 50px;
+}
+.main .logo_force_n {
+    width: 326px;
+    height: 90px;
+    padding-right: 15px;
+    border-right: 2px solid #939da7;
+}
+.slogan {
+    font-size: 20px;
+    font-weight: bold;
+}
+.text p span.slogan {
+    color: black;
+}
+.text .slogan {
+    color: #d86928;
+    margin-bottom: 50px;
+}
+.programme {
+    margin-bottom: 50px;
+}
+.horaire {
+    display: flex;
+    gap: 50px;
+    line-height: 32px;
+}
+.heure {
+    font-weight: bold;
+}
+/* .agenda {
+    
+} */
+.bande {
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    background-color: #d86928;
+    color: white;
+}
+.programme1 {
+    display: flex;
+    justify-content: space-between;
+}
+.programme1 .title {
+    color: #d86928;
+}
+.slogan_force_n {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 950;
+}
+
 p {
     font-size: 20px;
     line-height: 32px;
